@@ -1,0 +1,7 @@
+def find_max_min_in_tuple(input_tuple):
+    return max(input_tuple), min(input_tuple)
+
+
+test_tuple1 = (1, 2, 3, 4, 5)
+print(find_max_min_in_tuple(test_tuple1)) 
+
