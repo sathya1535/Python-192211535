@@ -1,0 +1,13 @@
+import os
+
+path_to_file = "myfolder/sample.txt"
+
+lines = [
+    'Apple is red.',
+    'Guava is green.',
+    'Mango is yellow.'
+]
+
+with open(path_to_file, 'w') as file:
+    file.writelines(line+'\n' for line in lines)
+    print('Lines are written to file.')
