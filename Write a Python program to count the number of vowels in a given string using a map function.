@@ -1,0 +1,7 @@
+def is_vowel(char):
+    vowels = "aeiou"
+    return char.lower() in vowels
+
+vowel_count = sum(map(is_vowel, "Hello, World!"))
+
+print("Number of vowels in 'Hello, World!':", vowel_count)
