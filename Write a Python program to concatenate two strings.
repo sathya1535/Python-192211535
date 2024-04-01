@@ -1,0 +1,4 @@
+str1="sathya"
+str2="madhav"
+str=str1+str2
+print(str)
