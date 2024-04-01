@@ -1,0 +1,12 @@
+import string
+
+def remove_punctuation_and_digits(s):
+    return ''.join(c for c in s if c not in string.punctuation + string.digits)
+
+str1 = "listen!"
+str2 = "silent?"
+
+str1_cleaned = remove_punctuation_and_digits(str1)
+str2_cleaned = remove_punctuation_and_digits(str2)
+
+print(is_anagram(str1_cleaned, str2_cleaned))  # Returns True
