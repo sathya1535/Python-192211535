@@ -1,0 +1,22 @@
+def sum_even_numbers(lower_bound, upper_bound):
+    
+    if lower_bound % 2 != 0:
+        lower_bound += 1
+
+    
+    total = 0
+    current_num = lower_bound
+
+   
+    while current_num <= upper_bound:
+        
+        total += current_num
+       
+        current_num += 2
+
+    return total
+
+
+lower_bound = 1
+upper_bound = 10
+print("Sum of even numbers between", lower_bound, "and", upper_bound, "is:", sum_even_numbers(lower_bound, upper_bound))
