@@ -1,0 +1,5 @@
+a=[2,4,3]
+a.sort()
+print(a)
+min=a[0]
+print(min)
