@@ -1,0 +1,21 @@
+def sum_of_odd_numbers(start, end):
+    
+    odd_sum = 0
+    
+    if start % 2 == 0:
+        start += 1
+   
+    current_number = start
+    while current_number <= end:
+        odd_sum += current_number
+        current_number += 2
+    return odd_sum
+
+
+start_num = int(input("Enter the starting number: "))
+end_num = int(input("Enter the ending number: "))
+if start_num > end_num:
+    print("Starting number should be less than or equal to the ending number.")
+else:
+    result = sum_of_odd_numbers(start_num, end_num)
+    print("Sum of odd numbers between", start_num, "and", end_num, "is:", result)
