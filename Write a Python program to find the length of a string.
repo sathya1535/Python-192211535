@@ -1,0 +1,2 @@
+str="sathyamadhav"
+print(len(str))
