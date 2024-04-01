@@ -1,0 +1,3 @@
+tuplex = ("w", "3", "r", "e", "s", "o", "u", "r", "c", "e")
+length = len(tuplex)
+print("Length of the tuple is:", length)
