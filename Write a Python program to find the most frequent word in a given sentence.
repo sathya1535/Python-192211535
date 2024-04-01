@@ -1,0 +1,16 @@
+from collections import defaultdict
+my_list = ["python is best for coders", "python is fun", "python is easy to learn"]
+
+print("The list is :")
+print(my_list)
+
+my_temp = defaultdict(int)
+
+for sub in my_list:
+   for word in sub.split():
+      my_temp[word] += 1
+
+result = max(my_temp, key=my_temp.get)
+
+print("The word that has the maximum frequency :")
+print(result)
