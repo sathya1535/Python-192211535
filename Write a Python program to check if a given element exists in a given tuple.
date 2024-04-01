@@ -1,0 +1,9 @@
+def check_element_in_tuple(input_tuple, element):
+    if element in input_tuple:
+        return True
+    else:
+        return False
+
+
+test_tuple = (1, 2, 3, 4, 5)
+print(check_element_in_tuple(test_tuple, 3)) 
