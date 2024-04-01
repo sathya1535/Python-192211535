@@ -1,0 +1,3 @@
+str="sathya"
+len=len(str)
+print(len)
