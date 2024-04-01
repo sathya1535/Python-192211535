@@ -1,0 +1,9 @@
+def find_element_index_in_tuple(input_tuple, element):
+    try:
+        return input_tuple.index(element)
+    except ValueError:
+        return -1
+
+ 
+test_tuple = (1, 2, 3, 4, 5)
+print(find_element_index_in_tuple(test_tuple, 3)) 
