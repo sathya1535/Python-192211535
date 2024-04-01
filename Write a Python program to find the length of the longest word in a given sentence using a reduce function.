@@ -1,0 +1,4 @@
+from functools import reduce
+sentence = "The quick brown fox jumps over the lazy dog"
+longest_word_length = reduce(lambda x, y: x if len(x) > len(y) else y, sentence.split(), "")
+print("Longest word length:", longest_word_length)
