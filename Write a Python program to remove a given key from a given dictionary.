@@ -1,0 +1,5 @@
+dic= { 'A' : "John", 'B' : "Sam", 'C' : "Max", 'D' : "Jake" }
+print("Dictionary before removing key: ",dic)
+
+del dic['C']
+print("Dictionary after removing key: ",dic)
