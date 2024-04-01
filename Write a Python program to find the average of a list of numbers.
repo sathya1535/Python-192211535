@@ -1,0 +1,5 @@
+numbers = [3098, 5565, 323, 1120, 2342, 75664]
+
+average = sum(numbers)/len(numbers)
+
+print("Average of list: ", round(average,1))
