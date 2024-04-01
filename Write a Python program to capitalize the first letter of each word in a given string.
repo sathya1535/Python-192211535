@@ -1,0 +1,4 @@
+flexiple = "join are freelance community"
+
+print(flexiple.capitalize())
+print(flexiple)
