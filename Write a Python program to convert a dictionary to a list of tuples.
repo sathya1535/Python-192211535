@@ -1,0 +1,3 @@
+dict = {'Geeks': 10, 'for': 12, 'Geek': 31}
+list = [(k, v) for k, v in dict.items()]
+print(list)
